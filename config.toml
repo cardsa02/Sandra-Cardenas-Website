@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://sandracardenas.com"
 
+title = "Sandra Cardenas"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -20,7 +22,7 @@ avatar = "img/avatar.jpg"
 favicon = "img/avatar.jpg"
 
 # Your email address showed in the contact section
-email = "kodama[at]domain.com"
+email = "kodama@domain.com"
 
 # If you don't want to show your contact information in the index
 contact_in_index = true

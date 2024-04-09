@@ -1,19 +1,17 @@
 +++
-# Insert zola front matter variable such as date etc
+title = "Kodama"
+date = 2020-07-09
+page_template="page.html"
 
 [extra]
+title = ""
 
-# Show a concise description of what you do below your avatar.
-title = "Concise description"
-
-# The list of interests displayed
 interests = [
   "Rainbow pony",
   "Martian food",
   "Quantic science"
 ]
 
-# The list of your degrees / education
 [[extra.education.courses]]
   course = "Latest degree"
   institution = "Some acamedy"
@@ -24,7 +22,11 @@ interests = [
   institution = "Here and there"
   year = 2016
 
-# Finally, a list of icons with a link displayed below your avatar
+[[extra.education.courses]]
+  course = "First degree"
+  institution = "My academy"
+  year = 2015
+
 [[extra.avatar_icons]]
   icon = "github"
   link = "https://github.com/adfaure"
@@ -34,5 +36,8 @@ interests = [
 [[extra.avatar_icons]]
   icon = "linkedin"
   link = "https://www.linkedin.com/in/adrien-faure-9958978b/"
-
 +++
+
+Welcome with the kodama theme, inspired from hugo academic theme.
+
+This theme is build with tailwindcss, and uses no JavaScript. It is meant to be simple, yet pretty.
