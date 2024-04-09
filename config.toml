@@ -42,7 +42,7 @@ avatar = "img/avatar.jpg"
 favicon = "img/avatar.jpg"
 
 # Your email address showed in the contact section
-email = "kodama@domain.com"
+email = "slc.sandra02@gmail.com"
 
 # If you don't want to show your contact information in the index
 contact_in_index = true
@@ -51,7 +51,7 @@ contact_in_index = true
 # `Name` is what it is displayed, `path` is the url
 menu_items = [
     { path = "files/cv.pdf", name = "CV" },
-    { path = "#contacts", name = "Contact" },
+    #{ path = "#contacts", name = "Contact" },
 ]
 
 # Translation related extra
@@ -60,7 +60,7 @@ language_codes = [ "en", "es" ]
 [extra.es]
 contact_in_index = false
 menu_items = [
-  { path = "#contacts_es", name = "Contacto" },
+  #{ path = "#contacts_es", name = "Contacto" },
 ]
 
 # Your translations
