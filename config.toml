@@ -51,25 +51,24 @@ contact_in_index = true
 # `Name` is what it is displayed, `path` is the url
 menu_items = [
     { path = "files/Sandra_Cardenas_Resume.pdf", name = "Resume" },
-    #{ path = "#contacts", name = "Contact" },
 ]
 
 # Translation related extra
-language_codes = [ "en", "es" ]
-
-[extra.es]
-contact_in_index = false
-menu_items = [
-  #{ path = "#contacts_es", name = "Contacto" },
-]
-
-# Your translations
-[languages.es]
-title = "Sandra Cardenas"
-
-[languages.es.translations]
-Biography = "Biografía"
-Interests = "Intereses"
-Education = "Educación"
-Published = "Publicado"
-Abstract = "Abstracto"
+# language_codes = [ "en", "es" ]
+# 
+# [extra.es]
+# contact_in_index = false
+# menu_items = [
+#   #{ path = "#contacts_es", name = "Contacto" },
+# ]
+# 
+# # Your translations
+# [languages.es]
+# title = "Sandra Cardenas"
+# 
+# [languages.es.translations]
+# Biography = "Biografía"
+# Interests = "Intereses"
+# Education = "Educación"
+# Published = "Publicado"
+# Abstract = "Abstracto"
